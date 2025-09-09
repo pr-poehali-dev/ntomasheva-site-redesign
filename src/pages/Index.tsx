@@ -2,24 +2,13 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
+import Navigation from '@/components/Navigation';
 import Icon from '@/components/ui/icon';
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
-      {/* Navigation */}
-      <nav className="border-b border-border px-6 py-4">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary">ntomasheva.ru</div>
-          <div className="hidden md:flex space-x-8">
-            <a href="/about" className="text-foreground hover:text-primary transition-colors">О себе</a>
-            <a href="/services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
-            <a href="/cases" className="text-foreground hover:text-primary transition-colors">Кейсы</a>
-            <a href="/contact" className="text-foreground hover:text-primary transition-colors">Контакты</a>
-          </div>
-          <Button>Получить консультацию</Button>
-        </div>
-      </nav>
+      <Navigation />
 
       {/* Hero Section */}
       <section className="px-6 py-20 bg-gradient-to-br from-white to-secondary">
