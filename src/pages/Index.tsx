@@ -12,10 +12,10 @@ const Index = () => {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="text-2xl font-bold text-primary">ntomasheva.ru</div>
           <div className="hidden md:flex space-x-8">
-            <a href="#services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
-            <a href="#cases" className="text-foreground hover:text-primary transition-colors">Кейсы</a>
-            <a href="#about" className="text-foreground hover:text-primary transition-colors">О компании</a>
-            <a href="#contact" className="text-foreground hover:text-primary transition-colors">Контакты</a>
+            <a href="/about" className="text-foreground hover:text-primary transition-colors">О себе</a>
+            <a href="/services" className="text-foreground hover:text-primary transition-colors">Услуги</a>
+            <a href="/cases" className="text-foreground hover:text-primary transition-colors">Кейсы</a>
+            <a href="/contact" className="text-foreground hover:text-primary transition-colors">Контакты</a>
           </div>
           <Button>Получить консультацию</Button>
         </div>
