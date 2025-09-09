@@ -17,7 +17,7 @@ const Index = () => {
             <a href="#about" className="text-foreground hover:text-primary transition-colors">О компании</a>
             <a href="#contact" className="text-foreground hover:text-primary transition-colors">Контакты</a>
           </div>
-          <Button>Запросить диагностику</Button>
+          <Button>Получить консультацию</Button>
         </div>
       </nav>
 
@@ -25,14 +25,17 @@ const Index = () => {
       <section className="px-6 py-20 bg-gradient-to-br from-white to-secondary">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6 animate-fade-in">
-            Системный рост и ИИ для бизнеса
+            Наталья Томашёва
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 animate-fade-in" style={{animationDelay: '0.2s'}}>
-            Диагностика → Пилот → Масштабирование
+          <p className="text-2xl text-primary mb-4 animate-fade-in" style={{animationDelay: '0.2s'}}>
+            Эксперт по системному росту и внедрению ИИ
+          </p>
+          <p className="text-xl text-muted-foreground mb-8 animate-fade-in" style={{animationDelay: '0.3s'}}>
+            Помогаю бизнесу внедрять ИИ и выстраивать системные процессы роста
           </p>
           <Button size="lg" className="animate-scale-in" style={{animationDelay: '0.4s'}}>
-            <Icon name="Rocket" className="mr-2" size={20} />
-            Запросить диагностику
+            <Icon name="MessageCircle" className="mr-2" size={20} />
+            Получить консультацию
           </Button>
         </div>
       </section>
@@ -44,19 +47,19 @@ const Index = () => {
             <Card className="text-center p-8 hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <div className="text-4xl font-bold text-primary mb-2">280+</div>
-                <div className="text-muted-foreground">команд</div>
+                <div className="text-muted-foreground">команд за 5 лет</div>
               </CardContent>
             </Card>
             <Card className="text-center p-8 hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
                 <div className="text-4xl font-bold text-primary mb-2">21 млрд ₽</div>
-                <div className="text-muted-foreground">оборота клиентов</div>
+                <div className="text-muted-foreground">общий годовой оборот клиентов</div>
               </CardContent>
             </Card>
             <Card className="text-center p-8 hover:shadow-lg transition-shadow">
               <CardContent className="pt-6">
-                <div className="text-4xl font-bold text-primary mb-2">17+</div>
-                <div className="text-muted-foreground">лет опыта</div>
+                <div className="text-4xl font-bold text-primary mb-2">5+</div>
+                <div className="text-muted-foreground">лет экспертизы в ИИ</div>
               </CardContent>
             </Card>
           </div>
